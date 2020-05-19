@@ -44,7 +44,7 @@ const SearchScreen = () => {
         <ScrollView>
             <ResultList results={filterResultByPrice('$')} title="Cost Effective" />
             <ResultList results={filterResultByPrice('$$')} title="Bit Pricier" />
-            <ResultList results={filterResultByPrice('$$')} title="Big Spender" />
+            <ResultList results={filterResultByPrice('$$$')} title="Big Spender" />
         </ScrollView>
     </>
 }
